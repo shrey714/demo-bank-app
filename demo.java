@@ -4,6 +4,7 @@
   <div style="margin-bottom: 10px;">
     <dx-date-box
       [(value)]="selectedDate"
+      displayFormat="yyyy-MM-dd"
       placeholder="Select Date">
     </dx-date-box>
   </div>
@@ -16,7 +17,7 @@
   </div>
 
   <dx-button
-    text="Print Values"
-    (onClick)="printValues()">
+    text="Submit"
+    (onClick)="submitData()">
   </dx-button>
 </div>
